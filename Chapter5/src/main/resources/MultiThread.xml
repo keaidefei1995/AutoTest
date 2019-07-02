@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name ="thread">
+    <test name=" demo1" parallel = "methods" thread-count = "3">
+
+        <!--parallel = "methods"/"tests"/"classes"
+
+        -->
+        <classes>
+            <class name = "com.course.testing.multiThread.MultiThreadOnAnnotion"></class>
+        </classes>
+
+    </test>
+
+    <test name=" demo2" >
+        <classes>
+            <class name = "com.course.testing.BasicAnnotation"></class>
+        </classes>
+
+    </test>
+</suite>

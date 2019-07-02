@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="suiteName">
+    <test name="runAll">
+        <classes>
+            <class name="com.course.testing.group.GroupsOnClass1"></class>
+            <class name="com.course.testing.group.GroupsOnClass2"></class>
+            <class name="com.course.testing.group.GroupsOnClass3"></class>
+
+        </classes>
+
+    </test>
+
+    <test name="onlyRunStu">
+        <groups>
+            <run>
+                <include name="stu"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.course.testing.group.GroupsOnClass1"></class>
+            <class name="com.course.testing.group.GroupsOnClass2"></class>
+            <class name="com.course.testing.group.GroupsOnClass3"></class>
+
+        </classes>
+
+    </test>
+</suite>
